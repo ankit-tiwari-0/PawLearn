@@ -3,14 +3,33 @@ import NavBar from '../Components/NavBar'
 
 const home = () => {
   return (
-    <div className="min-h-[100dvh] w-full relative bg-[url('/img/dogimg.jpg')] bg-cover bg-center scale-110">
+    <div className="relative w-full h-[100dvh] overflow-hidden">
+     
+      {/* Mobile Image */}
+      <img
+        src="/img/p.jpg"
+        className="absolute inset-0 w-full h-full object-cover lg:hidden"
+      />
 
-      <NavBar />
+      {/* Desktop Image */}
+      <img
+        src="/img/x.jpg"
+        className="absolute inset-0 w-full h-full object-cover hidden lg:block"
+      />
 
-      <div className="flex items-start px-4 sm:px-6 lg:px-10 mt-10">
-        <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl font-bold max-w-xl">
-          Train Your Dog From Home
-        </h1>
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/40"></div>
+
+      <div className="relative z-10">
+        <NavBar />
+
+        <div className="px-4 py-5 lg:ml-10 mt-3 lg:mt-20">
+          <h1 className="text-white text-4xl lg:text-6xl font-bold max-w-md leading-[1.1] ">
+            Train Your Dog
+            <br /> Online With,
+             <br/> PawLearn
+          </h1>
+        </div>
       </div>
 
     </div>
