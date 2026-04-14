@@ -7,9 +7,9 @@ const HeroSection = () => {
             <div>
                 <div className='px-3 lg:px-10 '>
                     <h3 className='text-orange-400 lg:text-2xl text-xl py-1.5 font-bold'>SErvices</h3>
-                    <h1 className='text-sm lg:text-5xl font-bold mb-4 ml-5'>Train Your Dog
+                    <h1 className='text-xl lg:text-5xl font-bold mb-5 ml-5 '>Train Your Dog 
                         <br />
-                        From Pawlearn<br /> </h1>
+                        from<span className='px-5 text-orange-300 py-10'>PawLearn</span> </h1>
                     <p className='max-w-xs lg:max-w-md ml-5 mb-10'>Train your dog effectively from home
                         with expert-guided lessons, real-time feedback, and simple step-by-step
                         techniques designed for everyday pet owners</p>
