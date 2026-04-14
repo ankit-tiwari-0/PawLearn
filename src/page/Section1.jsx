@@ -3,21 +3,18 @@ import NavBar from '../Components/NavBar'
 
 const home = () => {
   return (
-    <div className="relative w-full h-[100dvh] overflow-hidden">
+    <div className="relative w-full  h-[450px] lg:h-[650px]  overflow-hidden">
      
-      {/* Mobile Image */}
       <img
         src="/img/p.jpg"
         className="absolute inset-0 w-full h-full object-cover lg:hidden"
       />
 
-      {/* Desktop Image */}
       <img
         src="/img/x.jpg"
         className="absolute inset-0 w-full h-full object-cover hidden lg:block"
       />
 
-      {/* Overlay */}
       <div className="absolute inset-0 bg-black/40"></div>
 
       <div className="relative z-10">
@@ -30,6 +27,7 @@ const home = () => {
              <br/> PawLearn
           </h1>
         </div>
+        
       </div>
 
     </div>
