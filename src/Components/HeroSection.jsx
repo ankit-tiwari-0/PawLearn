@@ -32,10 +32,14 @@ const HeroSection = () => {
                     </div>
                 </div>
                 <div className="grid grid-cols-2 gap-6 lg:ml-55 lg:py-5 py-10  w-full justify-center">
-                    <div className="w-2/2 lg:w-70 h-40 lg:h-60 bg-black"></div>
-                    <div className="w-2/2 lg:w-70 h-40 lg:h-60 bg-black"></div>
-                    <div className="w-2/2 lg:w-70 h-40 lg:h-60 bg-black"></div>
-                    <div className="w-2/2 lg:w-70 h-40 lg:h-60 bg-black"></div>
+                    <div className="w-2/2 lg:w-72 h-40 lg:h-60">
+                     <img className='w-full h-full object-cover rounded-xl' src="/img/t.avif" alt="" />
+                    </div>
+                    <div className=" lg:w-72 h-40 lg:h-60 bg-black"></div>
+                    <div className=" lg:w-72 h-40 lg:h-60 bg-black"></div>
+                    <div className=" lg:w-72 h-40 lg:h-60">
+                        <img className='w-full h-full object-cover rounded-xl' src="/img/b.avif" alt="" />
+                    </div>
                 </div>
 
             </div>
