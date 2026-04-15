@@ -64,7 +64,7 @@ const HeroSection = () => {
 
                         <div>
                             <h1 className="mb-2 text-black font-bold text-lg  ">
-                              <span >  <i class="ri-bar-chart-box-line"></i></span>
+                              <i className="ri-bar-chart-box-line"></i>
                                  Interactive <span className='text-orange-400'>services</span>
                             </h1>
 
@@ -74,7 +74,7 @@ const HeroSection = () => {
                         </div>
 
                         <div className="flex  items-center gap-3">
-                            <button className="px-3 py-2 border-2 border-gray-100 text-orange-400 text-sm rounded-full ">
+                            <button className="px-3 py-2 border-2 border-gray-100 text-orange-400 text-sm rounded-full">
                                Explore Now 
                             </button>
 
