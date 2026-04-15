@@ -3,7 +3,7 @@ import NavBar from '../Components/NavBar'
 
 const home = () => {
   return (
-    <div className="relative w-full  h-[450px] lg:h-[650px]  overflow-hidden">
+    <div className="relative w-full  h-112.5 lg:h-162.5  overflow-hidden">
      
       <img
         src="/img/p.jpg"
