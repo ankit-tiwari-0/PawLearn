@@ -1,6 +1,7 @@
 import React from 'react'
 import Section1 from './page/Section1'
 import HeroSection from './Components/HeroSection'
+import Footer from './Components/Footer'
 
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
       
       <Section1 />
       <HeroSection />
+      <Footer />
     </div>
   )
 }

@@ -14,7 +14,7 @@ const NavBar = () => {
             <li className='cursor-pointer border-b-2 border-transparent hover:border-gray-400 transition duration-300 ease-in-out'>Support</li>
           </ul>
 
-          <button className='bg-orange-400 text-sm text-white border-2 rounded-full px-2 py-1.5'>Free Trial</button>
+          <button className='bg-orange-400 text-sm text-white border-2 rounded-full px-2 py-1.5 border-none hover:bg-black cursor-pointer'>Free Trial</button>
         </div>
       </div>
     </div>

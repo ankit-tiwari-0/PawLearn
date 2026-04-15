@@ -74,7 +74,7 @@ const HeroSection = () => {
                         </div>
 
                         <div className="flex  items-center gap-3">
-                            <button className="px-3 py-2 border-2 border-gray-100 text-orange-400 text-sm rounded-full">
+                            <button className="px-3 py-2 border-2 border-gray-100 text-orange-400 text-sm rounded-full ">
                                Explore Now 
                             </button>
 
