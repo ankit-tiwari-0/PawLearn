@@ -1,7 +1,17 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import NavBar from '../Components/NavBar'
+import gsap from 'gsap'
+import { useGSAP } from '@gsap/react'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+gsap.registerPlugin(useGSAP, ScrollTrigger)
 
 const home = () => {
+  const sectioRef = useRef()
+
+  useGSAP(()=>{
+    
+  })
   return (
     <div className="relative w-full  h-112.5 lg:h-162.5  overflow-hidden">
      
