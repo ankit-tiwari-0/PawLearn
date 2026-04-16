@@ -1,16 +1,142 @@
-# React + Vite
+# 🐾 PawLearn – Train Your Dog From Home
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PawLearn is a modern, responsive SaaS landing page built with **React + Vite + Tailwind CSS + GSAP**.
+It showcases an online dog training platform with smooth animations, clean UI, and mobile-first design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+👉 https://your-vercel-link.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🎯 Modern SaaS landing page design
+* 📱 Fully responsive (mobile + desktop)
+* ⚡ Built with Vite for fast performance
+* 🎨 Styled using Tailwind CSS
+* 🎞️ Smooth animations using GSAP
+* 🧠 Interactive UI sections (cards, icons, CTA)
+* 🐶 Realistic dog training theme
+
+---
+
+## 🛠️ Tech Stack
+
+* **React.js**
+* **Vite**
+* **Tailwind CSS**
+* **GSAP (GreenSock Animation Platform)**
+* **Remix Icons**
+
+---
+
+## 📁 Project Structure
+
+```
+PawLearn/
+│
+├── public/
+│   └── img/           # Images used in UI
+│
+├── src/
+│   ├── Components/
+│   │   ├── NavBar.jsx
+│   │   ├── HeroSection.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── page/
+│   │   └── Section1.jsx
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/pawlearn.git
+cd pawlearn
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📦 Build
+
+To create production build:
+
+```bash
+npm run build
+```
+
+---
+
+## 🚀 Deployment
+
+This project is deployed using **Vercel**:
+
+1. Push code to GitHub
+2. Import project in Vercel
+3. Click **Deploy**
+
+---
+
+## 🎯 GSAP Animations
+
+* Scroll-triggered animations
+* Stagger effects for text & cards
+* Smooth UI transitions
+* Optimized for performance
+
+---
+
+## 📸 Preview
+
+A clean hero section with:
+
+* Bold typography
+* Animated cards
+* Interactive elements
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this repo and improve UI/UX or add new features.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 🙌 Author
+
+**Ankit Tiwari**
+
+---
+
+⭐ If you like this project, consider giving it a star!
