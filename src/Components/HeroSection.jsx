@@ -17,7 +17,7 @@ const HeroSection = () => {
      const tl = gsap.timeline({
          scrollTrigger: {
       trigger: sectRef .current,
-      start: "top 80%",
+      start: "top 85%",
       toggleActions: "play reverse play reverse"
     }
      })
