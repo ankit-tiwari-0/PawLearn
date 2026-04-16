@@ -7,7 +7,7 @@ It showcases an online dog training platform with smooth animations, clean UI, a
 
 ## 🚀 Live Demo
 
-👉 https://your-vercel-link.vercel.app
+👉 https://paw-learn-six.vercel.app/
 
 ---
 
@@ -111,15 +111,11 @@ This project is deployed using **Vercel**:
 
 ---
 
-## 📸 Preview
+## 📸
+<img width="1893" height="808" alt="image" src="https://github.com/user-attachments/assets/a04208cd-5e93-4299-9949-b5cb389fd6e4" />
+<img width="1888" height="1031" alt="image" src="https://github.com/user-attachments/assets/17ded360-51da-4fc8-b9ce-6f41368b4835" />
 
-A clean hero section with:
 
-* Bold typography
-* Animated cards
-* Interactive elements
-
----
 
 ## 🤝 Contributing
 
