@@ -9,9 +9,16 @@ gsap.registerPlugin(useGSAP, ScrollTrigger)
 const home = () => {
   const sectioRef = useRef()
 
-  useGSAP(()=>{
-    
+useGSAP(() => {
+  gsap.from(sectioRef.current, {
+    x: 200,
+    opacity: 0,
+    duration: 2,
+    stagger:0.2,
+    ease:"power3.out",
+    delay: 0.4   // 🔥 sync after navbar
   })
+}, { scope: sectioRef })
   return (
     <div className="relative w-full  h-112.5 lg:h-162.5  overflow-hidden">
      
@@ -30,7 +37,7 @@ const home = () => {
       <div className="relative z-10">
         <NavBar />
 
-        <div className="px-4 py-5 lg:ml-10 mt-3 lg:mt-20">
+        <div ref={sectioRef} className="px-4 py-5 lg:ml-10 mt-3 lg:mt-20">
           <h1 className="text-white text-4xl lg:text-6xl font-bold max-w-md leading-[1.1] ">
             Train Your Dog
             <br /> Online With,
